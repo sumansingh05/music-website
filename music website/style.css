@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+.start{
+    background-color: #281154;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.first{
+    margin-left: 150px;
+    
+}
+.first h1{
+    margin-top: 4px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    
+}
+a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 2px solid white;
+}
+
+/* main */
+main{
+    
+    /* overflow: hidden;
+    object-fit: cover; */
+       
+}
+
+.hero-section{
+    background-image: url(hero_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    width: 100%; 
+}
+.same{
+    justify-content: center;
+    text-align: center;
+}
+.hero-section h1{
+    padding-top: 200px;
+    padding-bottom: 1px;
+    font-size: 50px;
+    
+    /* margin-top: 50px; */
+}
+.hero-section h3{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: 300;
+}
+.hero-section p{
+    font-size: 15px;
+    font-weight: 50;
+}
+
+.music-discription{
+    background-color: #281154;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.music-discription .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.music-discription h1{
+   margin-top: 30px;
+   font-size: 45px;
+}
+.music-discription p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.music-discription .btn{
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    transition: 0.2s;
+}
+.music-discription .btn:hover{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+.music-discription img{
+   position: relative;
+   top: 400px;
+   margin-top: -400px; 
+}
+
+.about-music{
+    padding-top: 500px;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.about-music h3{
+    font-size: 25px;
+}
+.about-music p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.about-music .secondary-btn{
+    padding: 15px;
+    background-color: #281154;
+    color: white;
+    transition: 0.2s;
+}
+.about-music .secondary-btn:hover{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.video-section{
+    background-image: url(video.png);
+    min-height: 800px;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+    
+}
+.video-section-content{
+    padding-left: 190px;
+    padding-right: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -200px;
+}
+.video-section-content h3{
+    font-size: 35px;
+}
+.video-section-content p{
+    font-size: 20px;
+}
+img{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gift-card{
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.gift-content{
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 70%;
+
+}
+.gift-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.gift-content-text .secondary-btn{
+    padding: 15px;
+    background-color: #281154;
+    color: white;
+    transition: 0.2s;
+    width: 200px;
+    margin-left: 170px;
+}
+.gift-content-text .secondary-btn:hover{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+/* footer */
+
+
+.last{
+   
+    height: 200px;
+    margin-top: 20px;
+    background-color: #281154;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.ancer{
+    margin-top: 30px;
+    color: white;
+}
+.footer-lower{
+    background-color: #281154;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
